@@ -75,4 +75,9 @@ getgenv().TARGET_BRAINROTS = {
     ["Los Jolly Combinasionas"] = true,
     ["Chicleteira Noelteira"] = true
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9a91b3ba6fb71423853ec2f885c42d67.lua"))()
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+end)
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/f21b5c7f24a92cef3a728c297b7ba2bc.lua"))()
+end)
